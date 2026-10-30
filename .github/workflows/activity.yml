@@ -1,0 +1,30 @@
+name: Refresh public activity
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: public-profile-card
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.repository == 'danmjrn/danmjrn' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: true
+      - name: Generate from public metadata
+        run: python3 scripts/activity.py
+      - name: Commit changed card
+        run: |
+          git config user.name 'Daniel Jr Nkulu'
+          git config user.email 'danmjrn@gmail.com'
+          git add assets/activity.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'docs: refresh public repository activity'
+            git push
+          fi
