@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc"><title id="title">Daniel Jr Nkulu — Java engineer and product builder</title><desc id="desc">Thoughtful systems. Dependable outcomes. Based in Johannesburg, South Africa.</desc><style>.orbit{transform-origin:830px 170px;animation:turn 28s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}@keyframes turn{to{transform:rotate(360deg)}}@keyframes pulse{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.orbit,.pulse{animation:none}}text{font-family:Arial,sans-serif}</style><rect width="1000" height="340" rx="20" fill="#1c1d20"/><g class="orbit" fill="none" stroke="#999d9e" stroke-width="1" opacity=".4"><circle cx="830" cy="170" r="135"/><ellipse cx="830" cy="170" rx="70" ry="135" transform="rotate(-35 830 170)"/><ellipse cx="830" cy="170" rx="140" ry="45" transform="rotate(25 830 170)"/></g><circle class="pulse" cx="936" cy="90" r="11" fill="#455ce9"/><text x="54" y="58" fill="#aeb1b2" font-size="12" letter-spacing="3">ENGINEERING · PRODUCTS · CONNECTION</text><text x="50" y="145" fill="#fff" font-size="62" letter-spacing="-3">Daniel Jr Nkulu<tspan fill="#455ce9">.</tspan></text><text x="54" y="190" fill="#d0d2d4" font-size="25" letter-spacing="-.6">Java engineer &amp; product builder</text><text x="54" y="250" fill="#999d9e" font-size="16">Thoughtful systems. Dependable outcomes.</text><circle cx="59" cy="295" r="4" fill="#a9c5ad"/><text x="74" y="300" fill="#d0d2d4" font-size="12">JOHANNESBURG, SOUTH AFRICA</text><text x="771" y="190" fill="#999d9e" font-size="66" letter-spacing="-8">DJN</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 370" role="img" aria-labelledby="title desc">
+<title id="title">Daniel Jr Nkulu — Java Software Engineer and Independent Contractor</title>
+<desc id="desc">BSc Computer Scientist. Banking, legal technology and business applications. Johannesburg, South Africa.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif}.orbit{transform-origin:842px 183px;animation:settle 4s ease-out 1}@keyframes settle{from{transform:rotate(-22deg);opacity:0}to{transform:rotate(0);opacity:1}}@media(prefers-reduced-motion:reduce){.orbit{animation:none}}</style>
+<rect width="1000" height="370" rx="20" fill="#1c1c1c"/>
+<g class="orbit" fill="none" stroke="#666666" stroke-width="1" opacity=".65"><circle cx="842" cy="183" r="139"/><ellipse cx="842" cy="183" rx="68" ry="139" transform="rotate(-35 842 183)"/><ellipse cx="842" cy="183" rx="139" ry="43" transform="rotate(28 842 183)"/></g>
+<text x="52" y="54" fill="#b8b8b8" font-size="12" letter-spacing="3">CODE · INTEGRATION · DELIVERY</text>
+<text x="49" y="134" fill="#ffffff" font-size="62" letter-spacing="-2.8">Daniel Jr Nkulu<tspan fill="#999999">.</tspan></text>
+<text x="53" y="184" fill="#eeeeee" font-size="25">Java Software Engineer</text>
+<text x="53" y="221" fill="#dddddd" font-size="25">Independent Contractor</text>
+<path d="M53 253H638" stroke="#555555"/>
+<text x="53" y="283" fill="#b8b8b8" font-size="15">BSc Computer Scientist</text>
+<text x="53" y="331" fill="#dddddd" font-size="12" letter-spacing="1.8">JOHANNESBURG, SOUTH AFRICA</text>
+<text x="777" y="206" fill="#b8b8b8" font-size="65" letter-spacing="-7">DJN</text>
+<circle cx="959" cy="331" r="5" fill="#ffffff"/>
+</svg>
