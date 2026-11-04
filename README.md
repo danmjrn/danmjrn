@@ -27,7 +27,7 @@ My earlier work spans LexisNexis citation processing and database resilience; Co
 | Project | What to explore | Live / source |
 | :--- | :--- | :--- |
 | **ResilientPay** | Reversal orchestration, idempotency, safe retry, maker/checker reconciliation and redacted audit evidence. Synthetic payments only. | [Demo ↗](https://resilientpay.shapeit.solutions) · [Java source](https://github.com/danmjrn/resilientpay_backend) |
-| **WeThrive** | Shared planning, goals and an offline-aware product experience. | [Application ↗](https://wethrive.shapeit.solutions) · [Java source](https://github.com/danmjrn/wethrive_backend) |
+| **WeThrive** | Shared planning, goals and an offline-aware product experience. | [Application ↗](https://wethrivefinance.shapeit.solutions) · [Java source](https://github.com/danmjrn/wethrive_backend) |
 | **ShapeIT Invitations** | Invitation, RSVP and event administration workflows. Development continues. | [Protected staging ↗](https://shapeit-invitations.shapeit.solutions) |
 | **Reverse Engineering Doc Plugin** | An IntelliJ proof of concept for Java project analysis and documentation prompts. | [Kotlin source](https://github.com/danmjrn/ReverseEngineeringDocPlugin) |
 
